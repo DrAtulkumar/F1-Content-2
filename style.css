@@ -5,8 +5,8 @@ body{
 
     background: #000000;
 }
-.topnav {
-    position: absolute;
+nav {
+    position: Sticky;
     width: 1728px;
     height: 86px;
     left: 0px;
@@ -14,7 +14,7 @@ body{
 
     background: #FCAF02;
 }
-.topnav > p{
+nav > p{
     position: absolute;
 width: 127px;
 height: 39px;
