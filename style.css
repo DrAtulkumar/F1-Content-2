@@ -1,0 +1,809 @@
+body{
+    position: relative;
+    width: 1728px;
+    height: 2399px;
+
+    background: #000000;
+}
+.topnav {
+    position: absolute;
+    width: 1728px;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+
+    background: #FCAF02;
+}
+.topnav > p{
+    position: absolute;
+width: 127px;
+height: 39px;
+left: 58px;
+top: -1px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+color: #000000;
+}
+
+.active{
+    position: absolute;
+width: 87px;
+height: 34px;
+left: 1048px;
+top: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;
+}
+
+.about{
+    position: absolute;
+width: 130px;
+height: 34px;
+left: 1185px;
+top: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;
+
+}
+
+.contact{
+    position: absolute;
+width: 155px;
+height: 34px;
+left: 1365px;
+top: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;
+
+}
+
+.login{
+    position: absolute;
+    width: 80px;
+    height: 34px;
+    left: 1570px;
+    top: 26px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    
+    color: #000000;    
+}
+
+section > h1{
+    position: absolute;
+width: 736px;
+height: 78px;
+left: 58px;
+top: 174px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.intro{
+    position: absolute;
+width: 917px;
+height: 238px;
+left: 63px;
+top: 285px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FFFFFF;
+}
+
+.img{
+   /* jeff 1 */
+    position: absolute;
+    width: 697px;
+    height: 482px;
+    left: 1000px;
+    top: 173px;
+
+    background: url(jeff.jpg);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.button{
+position: absolute;
+width: 323px;
+height: 66px;
+left: 63px;
+top: 573px;
+background: #FCAF02;
+border-radius: 500px;
+}
+
+.blogin{
+    /* Login */
+position: absolute;
+width: 95px;
+height: 39px;
+left: 177px;
+top: 552px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+color: #000000;
+}
+
+.hcontact{
+    /* Contact Us */
+position: absolute;
+width: 369px;
+height: 78px;
+left: 63px;
+top: 771px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+/* identical to box height */
+color: #FCAF02;
+}
+
+.Rectangle3{
+    /* Rectangle 3 */
+box-sizing: border-box;
+background-color: #000000;
+position: absolute;
+width: 1570px;
+height: 82px;
+left: 63px;
+top: 913px;
+
+border: 2px solid #FCAF02;
+border-radius: 100px;
+}
+
+.Rectangle31{
+    /* Rectangle 3 */
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1570px;
+    height: 82px;
+    left: 63px;
+    top: 1045px;
+    
+    border: 2px solid #FCAF02;
+    border-radius: 100px;
+}
+
+section >.name3{
+    /* Name */
+position: absolute;
+width: 917px;
+height: 34px;
+left: 121px;
+top: 910px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.email{
+    position: absolute;
+width: 917px;
+height: 34px;
+left: 121px;
+top: 1042px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.Rectangle32{
+    box-sizing: border-box;
+
+position: absolute;
+width: 730px;
+height: 82px;
+left: 63px;
+top: 1177px;
+
+border: 2px solid #FCAF02;
+border-radius: 100px
+}
+
+.Rectangle33{
+    box-sizing: border-box;
+
+position: absolute;
+width: 767px;
+height: 82px;
+left: 866px;
+top: 1177px;
+
+border: 2px solid #FCAF02;
+border-radius: 100px;
+}
+
+.Rectangle34{
+   /* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 325px;
+height: 82px;
+left: 685px;
+top: 1326px;
+
+background: #FCAF02;
+border: 2px solid #FCAF02;
+border-radius: 100px;
+}
+
+.mnum{
+    position: absolute;
+width: 426.38px;
+height: 34px;
+left: 121px;
+top: 1176px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.city{
+    position: absolute;
+width: 447.99px;
+height: 34px;
+left: 926.94px;
+top: 1176px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.submit{
+    /* Submit Form */
+
+position: absolute;
+width: 219px;
+height: 39px;
+left: 790px;
+top: 1318px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #000000;
+}
+
+.rectangle4{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1582px;
+height: 755px;
+left: 75px;
+top: 1524px;
+
+border: 2px solid #FCAF02;
+}
+
+.line1{
+    position: absolute;
+width: 1577px;
+height: 0px;
+left: 75px;
+top: 1623px;
+
+border: 2px solid #FCAF02;
+}
+
+.line2{
+    position: absolute;
+width: 0px;
+height: 750px;
+left: 223px;
+top: 1524px;
+
+border: 2px solid #FCAF02;
+}
+
+.line4{
+    /* Line 4 */
+
+position: absolute;
+width: 0px;
+height: 750px;
+left: 712px;
+top: 1524px;
+
+border: 2px solid #FCAF02;
+}
+ .rectangle5{
+    position: absolute;
+    width: 1582px;
+    height: 91px;
+    left: 75px;
+    top: 2188px;
+    
+    background: #FCAF02;
+ }
+
+ .srno{
+    /* SNO. */
+position: absolute;
+width: 69px;
+height: 34px;
+left: 112px;
+top: 1535px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+color: #FCAF02;
+}
+
+.sname{
+    /* Startup Name */
+
+position: absolute;
+width: 200px;
+height: 34px;
+left: 272px;
+top: 1535px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.dis{
+        /* Startup Description */
+position: absolute;
+width: 276px;
+height: 34px;
+left: 764px;
+top: 1535px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.s1{
+    /* Text */
+position: absolute;
+width: 42px;
+height: 34px;
+left: 135px;
+top: 1665px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+.n1{
+    position: absolute;
+width: 142px;
+height: 34px;
+left: 290px;
+top: 1673px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.d1{
+    /* A startup with WOW Ideas. */
+
+position: absolute;
+width: 379px;
+height: 34px;
+left: 768px;
+top: 1673px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.s2{
+    /* Text */
+position: absolute;
+width: 42px;
+height: 34px;
+left: 135px;
+top: 1757px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+.n2{
+    position: absolute;
+width: 208px;
+height: 34px;
+left: 290px;
+top: 1757px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.d2{
+    /* A startup with WOW Ideas. */
+position: absolute;
+width: 379px;
+height: 34px;
+left: 768px;
+top: 1757px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.s3{
+    /* Text */
+position: absolute;
+width: 42px;
+height: 34px;
+left: 135px;
+top: 1841px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+.n3{
+    position: absolute;
+width: 208px;
+height: 34px;
+left: 290px;
+top: 1841px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.d3{
+    /* A startup with WOW Ideas. */
+position: absolute;
+width: 379px;
+height: 34px;
+left: 768px;
+top: 1841px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.s4{
+    /* Text */
+position: absolute;
+width: 42px;
+height: 34px;
+left: 135px;
+top: 1925px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+.n4{
+    position: absolute;
+width: 208px;
+height: 34px;
+left: 290px;
+top: 1925px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.d4{
+    /* A startup with WOW Ideas. */
+position: absolute;
+width: 379px;
+height: 34px;
+left: 768px;
+top: 1925px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.s5{
+    /* Text */
+position: absolute;
+width: 42px;
+height: 34px;
+left: 135px;
+top: 2009px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+.n5{
+    position: absolute;
+width: 208px;
+height: 34px;
+left: 290px;
+top: 2009px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.d5{
+    /* A startup with WOW Ideas. */
+position: absolute;
+width: 379px;
+height: 34px;
+left: 768px;
+top: 2009px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.s6{
+    /* Text */
+position: absolute;
+width: 42px;
+height: 34px;
+left: 135px;
+top: 2093px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+.n6{
+    position: absolute;
+width: 208px;
+height: 34px;
+left: 290px;
+top: 2093px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.d6{
+    /* A startup with WOW Ideas. */
+position: absolute;
+width: 379px;
+height: 34px;
+left: 768px;
+top: 2093px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #FCAF02;
+}
+
+.s7{
+    /* Text */
+position: absolute;
+width: 42px;
+height: 34px;
+left: 135px;
+top: 2190px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;;
+}
+.n7{
+    position: absolute;
+width: 208px;
+height: 34px;
+left: 290px;
+top: 2190px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;;
+}
+
+.d7{
+    /* A startup with WOW Ideas. */
+position: absolute;
+width: 379px;
+height: 34px;
+left: 768px;
+top: 2190px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 34px;
+
+color: #000000;;
+}
+
+.line5{
+    position: absolute;
+width: 0px;
+height: 91px;
+left: 223px;
+top: 2188px;
+
+border: 2px solid #000000;
+}
+
+.line6{
+    position: absolute;
+width: 0px;
+height: 91px;
+left: 712px;
+top: 2188px;
+
+border: 2px solid #000000;
+}
