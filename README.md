@@ -1,2 +1,2 @@
-# F2-Content-2
-HTML
+# F1-Contest-2
+frontend contest 2 project

@@ -4,83 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startup</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <section>
-        <nav>
-            <p>Startup</p>
-            <a class="active" href="#home">Home</a>
-            <a class="about" href="#About">About Us</a>
-            <a class="contact" href="#contact">Contact Us</a>
-            <a class="login" href="#login">Login</a>
+    <div class="maindiv">
+         <!-------------------------------------------------------------------------------------------->
+        <nav class="navbar">
+            <section class="logo">Start<span>up</span></section>
+            <section class="navlinks">
+                <ol>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Login</a></li>    
+                </ol>
+            </section>
         </nav>
-    </section>
-    <section>
-        <h1>Startup Landing Page</h1>
-        <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <img class="img" src="./jiff.jpg" alt="image">
-        <input class="button" type="button">
-        <p class="blogin">Login</p>
-    </section>
-    <section>
-        <h1 class="hcontact">Contact Us</h1>
-        <input class="Rectangle3" type="text" name="" id="">
-        
-        <p class="name3">Name</p>
-        <div class="Rectangle31"> </div>
-        <p class="email">Email</p>
-        
-        <div class="Rectangle32"> </div>
-        <p class="mnum">Mobile Number</p>
-        <div class="Rectangle33"> </div>
-        <p class="city">City</p>
-
-        <div class="Rectangle34"> </div>
-        <p class="submit">Submit</p>
-    </section>
-
-    <section>
-        <div class="rectangle4"></div>
-        <hr class="line1">
-        <div class="line2"></div>
-        <div class="rectangle5"></div>
-        <div class="line4"></div>
-        <p class="srno">SNO.</p>
-        <p class="sname">Startup Name</p>
-        <p class="dis">Startup Description</p>
-
-        <p class="s1">1.</p>
-        <p class="n1">WowIndia</p>
-        <p class="d1">A startup with WOW Ideas.</p>
-
-        <p class="s2">2.</p>
-        <p class="n2">Loreum Ipsum</p>
-        <p class="d2">Loreum Ipsum Text</p>
-
-        <p class="s3">2.</p>
-        <p class="n3">Loreum Ipsum</p>
-        <p class="d3">Loreum Ipsum Text</p>
-
-        <p class="s4">2.</p>
-        <p class="n4">Loreum Ipsum</p>
-        <p class="d4">Loreum Ipsum Text</p>
-
-        <p class="s5">2.</p>
-        <p class="n5">Loreum Ipsum</p>
-        <p class="d5">Loreum Ipsum Text</p>
-
-        <p class="s6">2.</p>
-        <p class="n6">Loreum Ipsum</p>
-        <p class="d6">Loreum Ipsum Text</p>
-
-        <p class="s7">00.</p>
-        <p class="n7">Final Footer</p>
-        <p class="d7">Loreum Ipsum Text</p>
-
-        <div class="line5"></div>
-        <div class="line6"></div>
-    </section>
+        <!-------------------------------------------------------------------------------------------->
+        <div class="infopic">
+        <section class="info">
+            <header class="startheader">Startup Landing Page</header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button class="loginbutton">Login</button>
+        </section>
+        <section class="pic"> 
+            <img src="jeff 1.png" alt="jeffpic">
+        </section>
+        </div>
+         <!-------------------------------------------------------------------------------------------->
+         <br><br><br><br>
+         <div class="contactus" style="text-align: center;">
+            <section class="contactusheader">Contact Us</section>
+            <section style="display: flex;margin-left: 27px;flex-direction: column;">
+                <form action="" id="form-a" class="contactusform">
+                    <input id="griditem1" type="text" placeholder="Name">
+                    <input id="griditem2" type="text" placeholder="Email">
+                    <input id="griditem3" type="text" placeholder="Mobile No">
+                    <input id="griditem4" type="text" placeholder="City">
+                </form>
+                
+            </section>
+            <input id="submitbtn" form="form-a" type="submit" value="Submit Form">
+         </div>
+         <div class="tablediv">
+            <table class="table">
+                <tr>
+                  <th class="sno">SNO</th>
+                  <th>Startup Name</th>
+                  <th>Startup Description</th>
+                </tr>
+                <tr>
+                  <td class="sno">1.</td>
+                  <td>WowIndia</td>
+                  <td>A startup with WOW Ideas.</td>
+                </tr>
+                <tr>
+                  <td class="sno">2.</td>
+                  <td>Loreum Ipsum</td>
+                  <td>Loreum Ipsum Text</td>
+                </tr>
+                <tr>
+                    <td class="sno">2.</td>
+                    <td>Loreum Ipsum</td>
+                    <td>Loreum Ipsum Text</td>
+                  </tr>
+                  <tr>
+                    <td class="sno">2.</td>
+                    <td>Loreum Ipsum</td>
+                    <td>Loreum Ipsum Text</td>
+                  </tr>
+                  <tr>
+                    <td class="sno">2.</td>
+                    <td>Loreum Ipsum</td>
+                    <td>Loreum Ipsum Text</td>
+                  </tr>
+                  <tr>
+                    <td class="sno">2.</td>
+                    <td>Loreum Ipsum</td>
+                    <td>Loreum Ipsum Text</td>
+                  </tr>
+                  <tfoot>
+                    <tr>
+                      <td style="border-right: 2px #000000 solid;text-align: center;">00.</td>
+                      <td style="border-right: 2px #000000 solid;">Final Footer</td>
+                      <td style="border-right: 2px #FCAF02 solid;">Loreum Ipsum Text</td>
+                    </tr>
+                  </tfoot>
+              </table>
+         </div>
+         <br><br><br><br>
+    </div>
 </body>
 </html>
